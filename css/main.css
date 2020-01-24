@@ -99,18 +99,28 @@ textarea {
    ========================================================================== */
 
   .sous-block-0{
-    background-color:white;
+    background-color: orange;
     display: flex;
     justify-content: space-around;
-    /* margin-left: 40px;
-    margin-right: 40px; */
+    /* height: 30%; */
+    margin-left: 190px;
+    margin-right: 190px;
+    height: 230px;
+    border-top: black solid 3px;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+    border-bottom: white solid 2px;
+    
   }
   .sb1{
-    background-color:white;
+    background-color: orange;
     width: auto;
     margin: auto;
     margin-top: 1%;
     margin-bottom: 1%;
+    /* font-family: 'Patua One', cursive; */
+  }
+  .nom{
     font-family: 'Patua One', cursive;
   }
   .BACK-END{
@@ -122,9 +132,10 @@ textarea {
     
   }
   .sb2{
-    background-color:white;
+    background-color: orange;
     width: 17%;
-    margin: auto;
+    margin-right: 90px;
+    margin-top: 14px;
     justify-content: center;
   } 
   .test2{
@@ -132,21 +143,13 @@ textarea {
     border: black solid 3px;
   }
   .sb3{
-    background-color:white;
+    background-color:#ffa500;
     width: auto;
     margin: auto;
     font-family: 'Alata', sans-serif;
   }
-  .fas fa-map-marker-alt{
-    width: 30px;
-    height: 30px;
-    background: mediumorchid;
-    color: #0BB5F4;
-    border-radius: 50%;
-    margin-right: 10px;
-    font-size: 16px;
-    position: relative;
-    float: none;
+  a{
+    color: black;
   }
   .Block2{
     background-color: coral;
@@ -154,26 +157,52 @@ textarea {
     flex-direction: row;
     float: left;
     width: 98%;
+    
   }
   .sous-block-1{
-    background-color: deeppink;
+    background-color: grey;
     display: flex;
     justify-content: space-around;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
   }
+  h3{
+    color: orange;
+  }
+  
+  .Encadrer{
+    border: white solid 1px;
+    border-top: 20%;
+    background-color:black;
+    padding: 2px;
+    border-radius: 10px;
+    }
   .sb4{
-    background-color: peru;
+    background-color:grey;
     width: 45%;
     margin: 1%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+  }
+  .Écriture{
+    font-family: 'Barlow', sans-serif;
+    color:white;
   }
   .sb5{
-    background-color: darkorange;
+    background-color:grey;
     width: 45%;
     margin: 1%;
   }
   .sous-block-2{
-    background-color: gold;
+    background-color: grey;
     display: flex;
     justify-content: space-around;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
   }
   .sb6{
     background-color: gray;
@@ -182,28 +211,33 @@ textarea {
   }
   
   .sb7{
-    background-color: greenyellow;
+    background-color: grey;
     width: 45%;
     margin: 1%;
   }
   .sous-block-3{
-    background-color: lightseagreen;
+    background-color: grey;
     display: flex;
     justify-content: space-around;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-left: black solid 3px;
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
   }
   .sb8{
-    background-color: olive;
+    background-color: grey;
     width: 45%;
     margin:1%;
   }
   .sb9{
-    background-color: red;
+    background-color:grey;
     width: 45%;
     margin: 1%;
   }
   .Espace
   {
-    padding-right: 15px;
+    padding-right: 0%;
   }
 
   
